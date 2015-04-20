@@ -9,7 +9,11 @@ TASK:
 
 int main()
 {
+	FILE *fin, *fout;
 
+	assert(fin && fout);
 
+	fclose(fin);
+	fclose(fout);
 	return 0;
 }
